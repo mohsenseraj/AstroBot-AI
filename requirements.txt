@@ -1,0 +1,7 @@
+
+rasa
+openai
+dash
+pdfminer.six
+python-docx
+tensorflow
