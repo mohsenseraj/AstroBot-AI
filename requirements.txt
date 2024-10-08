@@ -5,3 +5,7 @@ dash
 pdfminer.six
 python-docx
 tensorflow
+dash_daq
+plotly
+python-dotenv
+
