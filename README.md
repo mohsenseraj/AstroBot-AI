@@ -22,6 +22,7 @@ You can install these dependencies using the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
+```
 
 Installation
 Clone the Repository:
