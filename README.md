@@ -27,45 +27,46 @@ pip install -r requirements.txt
 Installation
 Clone the Repository:
 
-bash
-Copy code
+```bash
 git clone https://github.com/your-username/astrobot-ai.git
 cd astrobot-ai
+```
 Create a Virtual Environment:
 
-bash
-Copy code
+```bash
 python -m venv .venv
+```
 Activate the Virtual Environment:
 
 On Windows:
-bash
-Copy code
+```bash
 .venv\Scripts\activate
 On macOS/Linux:
-bash
-Copy code
+```
+```bash
 source .venv/bin/activate
+```
 Install Required Libraries:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
 Set up Environment Variables:
 
-Create a .env file in the project directory and add your OpenAI API key:
-makefile
-Copy code
+Create a .env file in the project directory and add your 
+```OpenAI API key:```
+```makefile
 OPENAI_API_KEY=your-openai-api-key
+```
 Usage
 Run the main application file using:
 
-bash
-Copy code
+```bash
 python full_enhanced_app.py
 The app should launch in your browser at http://127.0.0.1:8050/.
+```
 
-Chatbot Usage
+```Chatbot Usage
 The chatbot can respond to various questions such as:
 
 "What's the battery level?"
@@ -74,6 +75,7 @@ The chatbot can respond to various questions such as:
 "How can I improve satellite efficiency?"
 Feel free to test its responses with both technical and non-technical queries!
 
+```
 File Structure
 full_enhanced_app.py: Main application file for the Dash app and chatbot.
 requirements.txt: Contains all necessary libraries.
